@@ -1,5 +1,5 @@
 # Change these first
-owner: Dataseed-inc # Your GitHub organization or username, where this repository lives
+owner: zeroboard-dev # Your GitHub organization or username, where this repository lives
 repo: status-page # The name of this repository
 
 sites:
@@ -13,7 +13,7 @@ sites:
     url: https://api.dataseed.jp/docs
     icon: https://test.dataseed.jp/favicon.ico
   - name: Dataseed blog
-    url: https://web-admin.dataseed.jp/api/articles
+    url: https://www.dataseed.jp/news
     icon: https://test.dataseed.jp/favicon.ico
   - name: Dataseed ESG AI
     url: https://chat.dataseed.jp
@@ -22,7 +22,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.dataseed.jp
+  # cname: status.dataseed.jp
   # baseUrl: /status-page
   logoUrl: https://www.dataseed.jp/_next/image?url=%2Fglobal%2FDataseed_logo.png&w=640&q=75
   name: Dataseed
