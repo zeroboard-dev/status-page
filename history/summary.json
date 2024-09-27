@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 315,
-    "timeDay": 213,
-    "timeWeek": 383,
-    "timeMonth": 374,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
     "timeYear": 315,
     "dailyMinutesDown": {}
   },
@@ -28,14 +28,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2770,
-    "timeDay": 1914,
-    "timeWeek": 1886,
-    "timeMonth": 2564,
-    "timeYear": 2770,
-    "dailyMinutesDown": {
-      "2024-01-16": 16
-    }
+    "time": 2767,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 2767,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dataseed API",
@@ -48,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 283,
-    "timeDay": 283,
-    "timeWeek": 281,
-    "timeMonth": 270,
-    "timeYear": 283,
+    "time": 282,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 282,
     "dailyMinutesDown": {}
   },
   {
@@ -60,18 +58,20 @@
     "url": "https://web-admin.dataseed.jp/api/articles",
     "icon": "https://test.dataseed.jp/favicon.ico",
     "slug": "dataseed-blog",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1102,
-    "timeDay": 3774,
-    "timeWeek": 1688,
-    "timeMonth": 1355,
-    "timeYear": 1102,
-    "dailyMinutesDown": {}
+    "time": 1089,
+    "timeDay": 390,
+    "timeWeek": 390,
+    "timeMonth": 390,
+    "timeYear": 1089,
+    "dailyMinutesDown": {
+      "2024-09-27": 0
+    }
   },
   {
     "name": "Dataseed ESG AI",
@@ -84,11 +84,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 245,
-    "timeDay": 270,
-    "timeWeek": 253,
-    "timeMonth": 361,
-    "timeYear": 245,
+    "time": 244,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 244,
     "dailyMinutesDown": {}
   }
 ]
