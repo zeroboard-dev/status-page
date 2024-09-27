@@ -55,22 +55,22 @@
   },
   {
     "name": "Dataseed blog",
-    "url": "https://web-admin.dataseed.jp/api/articles",
+    "url": "https://www.dataseed.jp/news",
     "icon": "https://test.dataseed.jp/favicon.ico",
     "slug": "dataseed-blog",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 1089,
-    "timeDay": 390,
-    "timeWeek": 390,
-    "timeMonth": 390,
-    "timeYear": 1089,
+    "time": 1081,
+    "timeDay": 377,
+    "timeWeek": 377,
+    "timeMonth": 377,
+    "timeYear": 1081,
     "dailyMinutesDown": {
-      "2024-09-27": 0
+      "2024-09-27": 4
     }
   },
   {
