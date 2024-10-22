@@ -4,10 +4,10 @@
     "url": "https://www.dataseed.jp",
     "icon": "https://test.dataseed.jp/favicon.ico",
     "slug": "dataseed-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 314,
@@ -15,17 +15,19 @@
     "timeWeek": 302,
     "timeMonth": 308,
     "timeYear": 314,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-22": 1
+    }
   },
   {
     "name": "Dataseed application",
     "url": "https://test.dataseed.jp",
     "icon": "https://test.dataseed.jp/favicon.ico",
     "slug": "dataseed-application",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 2699,
@@ -33,7 +35,9 @@
     "timeWeek": 1401,
     "timeMonth": 2147,
     "timeYear": 2699,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-22": 1
+    }
   },
   {
     "name": "Dataseed API",
@@ -58,10 +62,10 @@
     "url": "https://www.dataseed.jp/news",
     "icon": "https://test.dataseed.jp/favicon.ico",
     "slug": "dataseed-blog",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 954,
@@ -70,6 +74,7 @@
     "timeMonth": 444,
     "timeYear": 954,
     "dailyMinutesDown": {
+      "2024-10-22": 1,
       "2024-09-27": 4
     }
   },
@@ -78,9 +83,9 @@
     "url": "https://chat.dataseed.jp",
     "icon": "https://chat.dataseed.jp/favicon.ico",
     "slug": "dataseed-esg-ai",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -89,6 +94,8 @@
     "timeWeek": 208,
     "timeMonth": 215,
     "timeYear": 238,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-22": 0
+    }
   }
 ]
