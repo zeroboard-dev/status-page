@@ -38,27 +38,27 @@
   {
     "name": "Staging Frontend",
     "url": "https://stg.dataseed.zeroboard-dev.jp",
-    "icon": "https://stg.dataseed.zeroboard-dev.jp/favicon.ico",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
     "slug": "staging-frontend",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 151,
-    "timeDay": 151,
-    "timeWeek": 151,
-    "timeMonth": 151,
-    "timeYear": 151,
+    "status": "up",
+    "uptime": "7.91%",
+    "uptimeDay": "7.91%",
+    "uptimeWeek": "7.91%",
+    "uptimeMonth": "7.91%",
+    "uptimeYear": "7.91%",
+    "time": 936,
+    "timeDay": 936,
+    "timeWeek": 936,
+    "timeMonth": 936,
+    "timeYear": 936,
     "dailyMinutesDown": {
-      "2025-12-03": 24
+      "2025-12-03": 35
     }
   },
   {
     "name": "Staging API",
     "url": "https://stg-api.dataseed.zeroboard-dev.jp/health",
-    "icon": "https://stg.dataseed.zeroboard-dev.jp/favicon.ico",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
     "slug": "staging-api",
     "status": "up",
     "uptime": "100.00%",
@@ -76,39 +76,41 @@
   {
     "name": "Dev Frontend",
     "url": "https://dev.dataseed.zeroboard-dev.jp",
-    "icon": "https://dev.dataseed.zeroboard-dev.jp/favicon.ico",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
     "slug": "dev-frontend",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 225,
-    "timeDay": 225,
-    "timeWeek": 225,
-    "timeMonth": 225,
-    "timeYear": 225,
+    "status": "up",
+    "uptime": "7.62%",
+    "uptimeDay": "7.62%",
+    "uptimeWeek": "7.62%",
+    "uptimeMonth": "7.62%",
+    "uptimeYear": "7.62%",
+    "time": 910,
+    "timeDay": 910,
+    "timeWeek": 910,
+    "timeMonth": 910,
+    "timeYear": 910,
     "dailyMinutesDown": {
-      "2025-12-03": 24
+      "2025-12-03": 35
     }
   },
   {
     "name": "Dev API",
     "url": "https://dev-api.dataseed.zeroboard-dev.jp/health",
-    "icon": "https://dev.dataseed.zeroboard-dev.jp/favicon.ico",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
     "slug": "dev-api",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "79.86%",
+    "uptimeDay": "79.86%",
+    "uptimeWeek": "79.86%",
+    "uptimeMonth": "79.86%",
+    "uptimeYear": "79.86%",
     "time": 539,
     "timeDay": 539,
     "timeWeek": 539,
     "timeMonth": 539,
     "timeYear": 539,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-03": 8
+    }
   }
 ]
