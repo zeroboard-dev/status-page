@@ -14,16 +14,24 @@ sites:
   - name: Staging Frontend
     url: https://stg.dataseed.zeroboard-dev.jp
     icon: https://stg.dataseed.zeroboard-dev.jp/favicon.ico
+    headers:
+      - "Authorization: Basic $BASIC_AUTH_STG_WEB"
   - name: Staging API
     url: https://stg-api.dataseed.zeroboard-dev.jp/health
     icon: https://stg.dataseed.zeroboard-dev.jp/favicon.ico
+    headers:
+      - "Authorization: Basic $BASIC_AUTH_STG_API"
   # Dev
   - name: Dev Frontend
     url: https://dev.dataseed.zeroboard-dev.jp
     icon: https://dev.dataseed.zeroboard-dev.jp/favicon.ico
+    headers:
+      - "Authorization: Basic $BASIC_AUTH_DEV_WEB"
   - name: Dev API
     url: https://dev-api.dataseed.zeroboard-dev.jp/health
     icon: https://dev.dataseed.zeroboard-dev.jp/favicon.ico
+    headers:
+      - "Authorization: Basic $BASIC_AUTH_DEV_API"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
