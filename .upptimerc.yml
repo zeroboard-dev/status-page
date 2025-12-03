@@ -3,31 +3,37 @@ owner: zeroboard-dev # Your GitHub organization or username, where this reposito
 repo: status-page # The name of this repository
 
 sites:
-  - name: Dataseed website
-    url: https://www.dataseed.jp
-    icon: https://test.dataseed.jp/favicon.ico
-  - name: Dataseed application
-    url: https://test.dataseed.jp
-    icon: https://test.dataseed.jp/favicon.ico
-  - name: Dataseed API
-    url: https://api.dataseed.jp/docs
-    icon: https://test.dataseed.jp/favicon.ico
-  - name: Dataseed blog
-    url: https://www.dataseed.jp/news
-    icon: https://test.dataseed.jp/favicon.ico
-  - name: Dataseed ESG AI
-    url: https://chat.dataseed.jp
-    icon: https://chat.dataseed.jp/favicon.ico
+  # Production
+  - name: Production Frontend
+    url: https://dataseed.zeroboard.jp
+    icon: https://dataseed.zeroboard.jp/favicon.ico
+  - name: Production API
+    url: https://prod-api.dataseed.zeroboard.jp/health
+    icon: https://dataseed.zeroboard.jp/favicon.ico
+  # Staging
+  - name: Staging Frontend
+    url: https://stg.dataseed.zeroboard-dev.jp
+    icon: https://stg.dataseed.zeroboard-dev.jp/favicon.ico
+  - name: Staging API
+    url: https://stg-api.dataseed.zeroboard-dev.jp/health
+    icon: https://stg.dataseed.zeroboard-dev.jp/favicon.ico
+  # Dev
+  - name: Dev Frontend
+    url: https://dev.dataseed.zeroboard-dev.jp
+    icon: https://dev.dataseed.zeroboard-dev.jp/favicon.ico
+  - name: Dev API
+    url: https://dev-api.dataseed.zeroboard-dev.jp/health
+    icon: https://dev.dataseed.zeroboard-dev.jp/favicon.ico
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: status.dataseed.jp
   # baseUrl: /status-page
-  logoUrl: https://www.dataseed.jp/_next/image?url=%2Fglobal%2FDataseed_logo.png&w=640&q=75
-  name: Dataseed
-  introTitle: "はじめてのESG経営から、100年先も続く企業へ"
-  introMessage: "Dataseedは、ESG導入からデータ収集・分析、 経営判断への活用までステークホルダーが納得する 長期的な企業価値育成をサポートします。"
+  logoUrl: https://dataseed.zeroboard.jp/favicon.ico
+  name: Dataseed Status
+  introTitle: "Dataseed System Status"
+  introMessage: "Real-time monitoring of Dataseed services across Development, Staging, and Production environments."
   navbar:
     - title: Status
       href: /
