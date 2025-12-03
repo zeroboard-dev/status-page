@@ -51,10 +51,10 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  uptime: "*/5 * * * *"       # Every 5 min - core monitoring
+  responseTime: "0 */6 * * *" # Every 6 hours - response time tracking
+  graphs: "0 0 * * *"         # Daily at midnight - regenerate graphs
+  staticSite: "0 0 * * *"     # Daily at midnight - rebuild status site
+  summary: "0 0 * * *"        # Daily at midnight - update README
+  updates: "0 3 * * 0"        # Weekly (Sunday 3am) - check for Upptime updates
+  updateTemplate: "0 3 * * 0" # Weekly (Sunday 3am) - update workflow templates
