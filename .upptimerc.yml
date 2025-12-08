@@ -1,0 +1,38 @@
+# Change these first
+owner: zeroboard-dev # Your GitHub organization or username, where this repository lives
+repo: status-page # The name of this repository
+
+sites:
+  # Production
+  - name: Production Frontend
+    url: https://dataseed.zeroboard.jp
+    icon: https://dataseed.zeroboard.jp/favicon.ico
+  - name: Production API
+    url: https://prod-api.dataseed.zeroboard.jp/health
+    icon: https://dataseed.zeroboard.jp/favicon.ico
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname: status.dataseed.zeroboard.jp
+  baseUrl: /status-page
+  logoUrl: https://dataseed.zeroboard.jp/favicon.ico
+  name: MPG Status
+  introTitle: "MPG System Status"
+  introMessage: "Real-time monitoring of MPG services for the Production environments."
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  uptime: "*/5 * * * *"       # Every 5 min - core monitoring
+  responseTime: "0 */6 * * *" # Every 6 hours - response time tracking
+  graphs: "0 0 * * *"         # Daily at midnight - regenerate graphs
+  staticSite: "0 0 * * *"     # Daily at midnight - rebuild status site
+  summary: "0 0 * * *"        # Daily at midnight - update README
+  updates: "0 3 * * 0"        # Weekly (Sunday 3am) - check for Upptime updates
+  updateTemplate: "0 3 * * 0" # Weekly (Sunday 3am) - update workflow templates
