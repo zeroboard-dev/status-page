@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Production Frontend",
+    "url": "https://dataseed.zeroboard.jp",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
+    "slug": "production-frontend",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 2563,
+    "timeDay": 2563,
+    "timeWeek": 2563,
+    "timeMonth": 2563,
+    "timeYear": 2563,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Production API",
+    "url": "https://prod-api.dataseed.zeroboard.jp/health",
+    "icon": "https://dataseed.zeroboard.jp/favicon.ico",
+    "slug": "production-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 646,
+    "timeDay": 646,
+    "timeWeek": 646,
+    "timeMonth": 646,
+    "timeYear": 646,
+    "dailyMinutesDown": {}
+  }
+]
