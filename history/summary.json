@@ -22,17 +22,17 @@
     "url": "https://prod-api.dataseed.zeroboard.jp/health",
     "icon": "https://dataseed.zeroboard.jp/favicon.ico",
     "slug": "production-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 601,
-    "timeDay": 631,
-    "timeWeek": 593,
-    "timeMonth": 590,
-    "timeYear": 601,
+    "time": 793,
+    "timeDay": 5598,
+    "timeWeek": 1590,
+    "timeMonth": 883,
+    "timeYear": 793,
     "dailyMinutesDown": {}
   }
 ]
