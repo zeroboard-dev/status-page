@@ -1,7 +1,7 @@
 url: https://prod-api.dataseed.zeroboard.jp/health
-status: up
-code: 200
-responseTime: 522
-lastUpdated: 2026-02-03T23:12:56.372Z
+status: down
+code: 502
+responseTime: 574
+lastUpdated: 2026-02-04T00:46:02.261Z
 startTime: 2025-12-03T06:04:09.811Z
 generator: Upptime <https://github.com/upptime/upptime>
